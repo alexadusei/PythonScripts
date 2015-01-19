@@ -1,8 +1,5 @@
 """
-    NetID: 12aa100
-    Student Number: 10085234
     Course: CISC 121
-    Assignment: Assignment #1, Fall 2013
     Details: This program uses a simplified algorithm for deciding opening bids
     in the game Bridge.
 
