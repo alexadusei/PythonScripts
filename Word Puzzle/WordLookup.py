@@ -11,10 +11,6 @@ of the words from the file.  This is one case where the use of a
 global variable is definitely justified.  The lookup function must
 use this dictionary and it would be very inefficient to recreate
 the dictionary every time the function is called.
-
-For use with Assignment 3
-CISC 121, Fall 2013
-M. Lamb
 """
 
 def createDictionary():
@@ -23,12 +19,6 @@ def createDictionary():
     Every word from the word list file because a key in the dict.
     Each word maps to the value None.  This is because all we care about
     is whether a given word is in the dict.
-
-    Some students might be wondering why I didn't put the words
-    in a sorted list and implement lookup using a binary search.  The reason
-    is that dicts are even faster than binary search.  The dict I'm using
-    here takes up more room than a simple list of words but does searches
-    in constant time.
     """
     global wordList # Specifies that wordList will not go away at the end
                     # of this function call and that other functions may
