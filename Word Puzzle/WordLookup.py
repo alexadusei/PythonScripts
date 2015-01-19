@@ -10,7 +10,7 @@ The module uses a global variable: wordList, the dict containing all
 of the words from the file.  This is one case where the use of a
 global variable is definitely justified.  The lookup function must
 use this dictionary and it would be very inefficient to recreate
-the dictionary every time the function is called.
+the dictionary every time the function will be called.
 """
 
 def createDictionary():
